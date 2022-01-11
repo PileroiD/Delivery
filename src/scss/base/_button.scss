@@ -1,0 +1,28 @@
+.button {
+    width: 160px;
+    height: 45px;
+    background-color: #ec644b;
+    border-radius: 30px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 400;
+    color: #fff;
+    cursor: pointer;
+    &_promo {
+        margin-left: 19px;
+        &_2 {
+            width: 230px;
+            height: 57px;
+            margin: 0 auto;
+            margin-top: 39px;
+            font-size: 15px;
+            font-weight: 700;
+            color: #fff;
+            text-transform: uppercase;
+        }
+    }
+}
