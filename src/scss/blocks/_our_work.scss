@@ -1,0 +1,26 @@
+.our_work {
+    height: 620px;
+    padding: 50px 0 57px 0;
+    &__wrap {
+        margin-top: 37px;
+        display: grid;
+        grid-template-columns: repeat(3, 360px);
+        justify-content: space-between;
+    }
+    &-item {
+        &__title {
+            font-size: 18px;
+            font-weight: 700;
+            text-align: center;
+            color: #ec644b;
+            margin-top: 20px;
+        }
+        &__subtitle {
+            font-size: 14px;
+            font-weight: 300;
+            color: #3a3a3a;
+            text-align: justify;
+            margin-top: 11px;
+        }
+    }
+}

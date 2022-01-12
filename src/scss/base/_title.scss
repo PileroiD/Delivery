@@ -5,3 +5,15 @@
     color: #2e2e2e;
     text-transform: uppercase;
 }
+
+.subtitle {
+    font-size: 21px;
+    font-weight: 300;
+    text-align: center;
+    color: #2e2e2e;
+    margin: 0 auto;
+    &_our_work {
+        width: 880px;
+        margin-top: 17px;
+    }
+}

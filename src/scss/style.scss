@@ -17,5 +17,15 @@
     margin: 0 auto;
 }
 
+.divider {
+    display: block;
+    width: 148px;
+    height: 1px;
+    background-color: #ec644b;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
 @import 'blocks/promo';
 @import 'blocks/advantages';
+@import 'blocks/our_work';

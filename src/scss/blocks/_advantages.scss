@@ -4,16 +4,17 @@
     padding: 58px 0 50px 0;
     &__wrap {
         display: grid;
-        grid-template-columns: repeat(2, 432px);
-        grid-template-rows: repeat(4, minmax(64px 100%));
+        grid-template-columns: repeat(2, 520px);
         grid-auto-rows: minmax(64px, auto);
         justify-content: center;
-        grid-column-gap: 85px;
+        grid-column-gap: 60px;
         grid-row-gap: 35px;
         margin-top: 30px;
     }
     &-item {
-        display: flex;
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-column-gap: 20px;
         &__title {
             font-size: 16px;
             font-weight: 700;
@@ -27,7 +28,6 @@
             margin-top: 5px;
         }
         &__img {
-            margin-right: 17px;
             padding-top: 4px;
         }
     }
