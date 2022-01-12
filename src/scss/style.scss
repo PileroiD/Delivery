@@ -1,4 +1,6 @@
 @import 'libs/fonts';
+@import 'base/button';
+@import 'base/title';
 
 * {
     font-family: "Roboto", sans-serif;
@@ -16,4 +18,4 @@
 }
 
 @import 'blocks/promo';
-@import 'base/button';
+@import 'blocks/advantages';
