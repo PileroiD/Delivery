@@ -1,0 +1,45 @@
+.carousel {
+    margin: 0 auto;
+    margin-top: 31px;
+    width: 600px;
+    &__inner {
+        position: relative;
+    }
+    &-item {
+        width: 100%;
+    }
+    &__img {
+        display: flex;
+        justify-content: center;
+        img {
+            border-radius: 100%;
+        }
+    }
+    &__title {
+        font-size: 18px;
+        font-weight: 700;
+        text-align: center;
+        margin-top: 19px;
+    }
+    &__subtitle {
+        font-size: 14px;
+        font-weight: 300;
+        text-align: justify;
+        color: #3a3a3a;
+        margin-top: 10px;
+    }
+    .slick-prev, .slick-next {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: -66px;
+        border: none;
+        background-color: #fff;
+        cursor: pointer;
+    }
+    .slick-next {
+        right: -66px;
+        left: auto;
+    }
+
+}
