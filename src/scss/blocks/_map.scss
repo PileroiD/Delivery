@@ -1,0 +1,43 @@
+.map {
+    position: relative;
+    &__wrap {
+        width: 329px;
+        height: 160px;
+        background-color: #fff;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 55%;
+        padding: 28px 50px 28px 33px;
+    }
+    &__city {
+        font-size: 16px;
+        font-weight: 700;
+        color: #ec644b;
+        line-height: 14px;
+    }
+    &__text {
+        font-size: 14px;
+        font-weight: 300;
+        color: #3a3a3a;
+        margin-top: 10px;
+        line-height: 19px;
+    }
+    &__mail {
+        font-size: 14px;
+        color: #ec644b;
+        text-decoration: underline;
+    }
+    &__rect {
+        display: block;
+        background-color: rgba(0, 0, 0, 0);
+        height: 40px;
+        width: 20px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-40%);
+        left: -12%;
+        border: 20px solid transparent;
+        border-right: 20px solid #fff;
+    }
+}
