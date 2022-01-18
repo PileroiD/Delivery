@@ -1,45 +1,78 @@
 .carousel {
     margin: 0 auto;
     margin-top: 31px;
-    width: 600px;
+    width: 1415px;
     &__inner {
         position: relative;
     }
     &-item {
-        width: 100%;
+        width: 360px;
+        margin: 0 22px;
+        margin-top: 44px;
     }
     &__img {
         display: flex;
         justify-content: center;
+        z-index: 999;
+        height: 70px;
         img {
             border-radius: 100%;
+            display: flex;
+            z-index: 999;
         }
     }
     &__title {
-        font-size: 18px;
+        font-size: 12px;
         font-weight: 700;
         text-align: center;
-        margin-top: 19px;
+        margin-top: 10px;
     }
     &__subtitle {
-        font-size: 14px;
+        font-size: 10px;
         font-weight: 300;
         text-align: justify;
         color: #3a3a3a;
-        margin-top: 10px;
+        margin-top: 5px;
     }
     .slick-prev, .slick-next {
         position: absolute;
-        top: 50%;
+        top: 25%;
         transform: translateY(-50%);
-        left: -66px;
+        left: 595px;
         border: none;
         background-color: #fff;
         cursor: pointer;
+        z-index: 99;
     }
     .slick-next {
-        right: -66px;
+        right: 595px;
         left: auto;
     }
-
+    .slick-list.draggable {
+        width: 100%;
+        padding: 0 0;
+    }
+    .slick-slide {
+        opacity: .3;
+        transition: all 300ms ease;
+    }
+    .slick-current {
+        opacity: 1;
+        margin-top: 0;
+        width: 600px;
+        .carousel__img {
+            height: 114px;
+        }
+        .carousel__title {
+            font-size: 18px;
+            margin-top: 19px;
+        }
+        .carousel__subtitle {
+            font-size: 14px;
+            margin-top: 10px;
+        }
+    }
+    .slick-track {
+        transition: all 0.4s ease;
+    }
 }

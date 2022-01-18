@@ -14,6 +14,9 @@
     cursor: pointer;
     &_promo {
         margin-left: 19px;
+        a {
+            color: #fff;
+        }
         &_2 {
             width: 230px;
             height: 57px;
@@ -28,5 +31,18 @@
     &_price {
         margin: 0 auto;
         margin-top: 25px;
+    }
+    &_form {
+        position: absolute;
+        width: 204px;
+        background-color: #fff;
+        bottom: -15%;
+        left: 50%;
+        transform: translateX(-50%);
+        .button {
+            border: none;
+            width: 180px;
+            margin: 0 auto;
+        }
     }
 }

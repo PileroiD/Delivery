@@ -34,19 +34,19 @@
                     <img src="icons/logo.png" alt="logo">
                 </div>
                 <div class="promo__header__links">
-                    <div class="link"><a href="#">Преимущества</a></div>
-                    <div class="link"><a href="#">Наша работа</a></div>
-                    <div class="link"><a href="#">Цены</a></div>
-                    <div class="link"><a href="#">Схема работы</a></div>
-                    <div class="link"><a href="#">Отзывы</a></div>
-                    <div class="link"><a href="#">Контакты</a></div>
+                    <div class="link"><a href="#advantages">Преимущества</a></div>
+                    <div class="link"><a href="#our_work">Наша работа</a></div>
+                    <div class="link"><a href="#price">Цены</a></div>
+                    <div class="link"><a href="#scheme">Схема работы</a></div>
+                    <div class="link"><a href="#review">Отзывы</a></div>
+                    <div class="link"><a href="#contacts">Контакты</a></div>
                 </div>
                 <div class="promo__header__number__wrapper">
                     <div class="promo__header__number">
                         <span class="promo__header__number__text">Есть вопросы?</span>
                         <div class="number"><a href="tel:+79264230100">+7 (926) 423 01 00</a></div>
                     </div>
-                    <div class="button button_promo">Перезвоните мне</div>
+                    <div class="button button_promo"><a href="tel:+79264230100">Перезвоните мне</a></div>
                 </div>
             </div>
             <div class="promo__wrapper">
@@ -98,7 +98,7 @@
     </section>
 
     <section class="adv">
-        <div class="title">Преимущества работы с GlobalOpt</div>
+        <div id="advantages" class="title">Преимущества работы с GlobalOpt</div>
         <div class="adv__wrap">
             <div class="adv-item">
                 <div class="adv-item__img">
@@ -175,7 +175,7 @@
         </div>
     </section>
 
-    <section class="our_work">
+    <section id="our_work" class="our_work">
         <div class="container">
             <div class="title">Наша работа - больше чем просто доставка</div>
             <div class="divider"></div>
@@ -214,7 +214,7 @@
         <div class="agent__subtitle">Русскоговорящие представители компании без труда найдут именно тот товар, который будет отвечать Вашим запросам как по качеству, так и по цене.</div>
     </section>
 
-    <section class="price">
+    <section id="price" class="price">
         <div class="title">Цены на любой вариант доставки</div>
         <div class="divider"></div>
         <div class="subtitle subtitle_price">Перевозки грузов на дальние расстояния без каких-либо ограничений. Любой груз доставим вовремя.</div>
@@ -268,18 +268,18 @@
                         <img src="icons/prices/prices_5.png" alt="prices_5">
                     </div>
                 </div>
-                <form class="price__form" enctype="multipart/form-data" method="post" id="form">
-                    <div class="price__input">
+                <form class="form" enctype="multipart/form-data" method="post" id="form">
+                    <div class="input">
                         <input placeholder="Ваше имя*..." required name="name" id="name" type="text" autocomplete="off" class="price__form__input">
                     </div>
-                    <div class="price__input">
+                    <div class="input">
                         <input placeholder="Ваш номер телефона*..." required name="number" id="number" type="number" autocomplete="off" class="price__form__input">
                     </div>
-                    <div class="price__input">
+                    <div class="input">
                         <input placeholder="Ваш e-mail*..." required name="email" id="email" type="email" autocomplete="off" class="price__form__input">
                     </div>
                 </form>
-                <div class="price__consult__button">
+                <div class="button button_form">
                     <button type="submit" class="button">Отправить заявку</button>
                 </div>
             </div>
@@ -294,7 +294,7 @@
         <div class="manager__subtitle">Подберут для Вас оптимальную схему грузоперевозки. Проведут контроль закупок, организуют прямые поставки от завода-изготовителя.</div>
     </section>
 
-    <section class="scheme">
+    <section id="scheme" class="scheme">
         <div class="container">
             <div class="title">Схема работы с нами</div>
             <div class="scheme__wrap">
@@ -353,7 +353,7 @@
         </div>
     </section>
 
-    <section class="review">
+    <section id="review" class="review">
         <div class="title">отзывы наших клиентов</div>
         <div class="divider"></div>
         <div class="subtitle">Мы всегда стараемся помочь клиентам, что бы они обращались к нам снова</div>
@@ -380,27 +380,41 @@
                     <div class="carousel__title">Дмитрий Иванов</div>
                     <div class="carousel__subtitle">Хочу рассказать о компании Global Opt. Самое главное что меня радует, это быстрый поиск и анализ определенного товара. Доставляла через компанию уже много раз, от расходных материалов для отеля, ло дольших партий детской одежды. Буду продолжать пользтваьбся услугами даной компании</div>
                 </div>
+                <div class="carousel-item">
+                    <div class="carousel__img">
+                        <img src="img/review/review_13.jpg" alt="review_1">
+                    </div>
+                    <div class="carousel__title">Дмитрий Иванов</div>
+                    <div class="carousel__subtitle">Хочу рассказать о компании Global Opt. Самое главное что меня радует, это быстрый поиск и анализ определенного товара. Доставляла через компанию уже много раз, от расходных материалов для отеля, ло дольших партий детской одежды. Буду продолжать пользтваьбся услугами даной компании</div>
+                </div>
+                <div class="carousel-item">
+                    <div class="carousel__img">
+                        <img src="img/review/review_13.jpg" alt="review_1">
+                    </div>
+                    <div class="carousel__title">Дмитрий Иванов</div>
+                    <div class="carousel__subtitle">Хочу рассказать о компании Global Opt. Самое главное что меня радует, это быстрый поиск и анализ определенного товара. Доставляла через компанию уже много раз, от расходных материалов для отеля, ло дольших партий детской одежды. Буду продолжать пользтваьбся услугами даной компании</div>
+                </div>
             </div>
         </div>
     </section>
 
-    <section class="question">
+    <section id="contacts" class="question">
         <div class="question__wrap">
             <div class="question__head">
                 <div class="question__title">Остались вопросы?</div>
                 <div class="question__subtitle">Напишите нам!</div>
             </div>
-            <form class="question__form" enctype="multipart/form-data" method="post">
-                <div class="price__input">
+            <form class="form form_question" enctype="multipart/form-data" method="post">
+                <div class="input">
                     <input placeholder="Ваше имя*..." required name="name" id="name" type="text" autocomplete="off" class="price__form__input">
                 </div>
-                <div class="price__input">
+                <div class="input">
                     <input placeholder="Ваш номер телефона*..." required name="number" id="number" type="number" autocomplete="off" class="price__form__input">
                 </div>
-                <div class="price__input">
+                <div class="input">
                     <input placeholder="Ваш e-mail*..." required name="email" id="email" type="email" autocomplete="off" class="price__form__input">
                 </div>
-                <div class="price__input price__input-textarea">
+                <div class="input input_textarea">
                     <input placeholder="Сообщение..." required name="textarea" id="textarea" type="text" autocomplete="off" class="price__form__input">
                 </div>
             </form>
@@ -430,7 +444,7 @@
                         <span class="promo__header__number__text">Есть вопросы?</span>
                         <div class="number"><a href="tel:+79264230100">+7 (926) 423 01 00</a></div>
                     </div>
-                    <div class="button button_promo">Перезвоните мне</div>
+                    <div class="button button_promo"><a href="tel:+79264230100">Перезвоните мне</a></div>
                 </div>
             </div>
             <hr>
@@ -440,7 +454,7 @@
                 <div class="footer-down__creator">
                     <div class="footer-down__crsite">Создание сайта:</div>
                     <div class="footer-down__creator-icon">
-                        <img src="icons/creator.png" alt="">
+                        <img src="icons/creator.png" alt="creator-icon">
                     </div>
                 </div>
             </div>
