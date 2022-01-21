@@ -26,6 +26,17 @@
             }
         }
     }
+    &_modal {
+        display: block;
+        margin-top: 42px;
+        .input {
+            margin-top: 10px;
+            input {
+                width: 100%;
+            }
+        }
+
+    }
     &_question {
         display: flex;
         flex-wrap: wrap;
