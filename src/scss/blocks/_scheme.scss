@@ -16,15 +16,6 @@
     }
     &-item {
         width: 257px;
-        &:nth-child(2) {
-            margin-top: -2px;
-        }
-        &:nth-child(3) {
-            margin-top: 2px;
-        }
-        &:nth-child(6) {
-            margin-top: -1px;
-        }
         &__img {
             text-align: center;
         }

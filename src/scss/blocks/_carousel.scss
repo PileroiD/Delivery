@@ -1,4 +1,4 @@
-.carousel {
+.carousel, .carousel_hide {
     margin: 0 auto;
     margin-top: 31px;
     width: 1415px;
@@ -75,4 +75,8 @@
     .slick-track {
         transition: all 0.4s ease;
     }
+}
+
+.carousel_hide {
+    display: none;
 }
